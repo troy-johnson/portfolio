@@ -1,28 +1,37 @@
 import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
-
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import { Layout, SEO } from "../components"
+import { FaLinkedin } from "react-icons/fa"
+import { MdEmail, MdLocalPhone } from "react-icons/md"
+import { IoMdDocument } from "react-icons/io"
+import resume from "../assets/resume.pdf"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <StaticImage
-      src="../images/gatsby-astronaut.png"
-      width={300}
-      quality={95}
-      formats={["AUTO", "WEBP", "AVIF"]}
-      alt="A Gatsby astronaut"
-      style={{ marginBottom: `1.45rem` }}
-    />
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-    </p>
+    <SEO title="Troy Johnson" />
+    <h1>Troy Johnson</h1>
+    <h2>Software Engineer</h2>
+    <main>
+      <div className="flex flex-row items-center" id="resume">
+        <IoMdDocument className="mr-2" />
+        <a href={resume} target="_blank">
+          Resume
+        </a>
+      </div>
+      <div className="flex flex-row items-center" id="linkedin">
+        <FaLinkedin className="mr-2" />
+        <a href="https://www.linkedin.com/in/troy-johnson57/" alt="LinkedIn">
+          troy-johnson57
+        </a>
+      </div>
+      <div className="flex flex-row items-center" id="email">
+        <MdEmail className="mr-2" />
+        <a href="mailto:troy.johnson57@gmail.com">troy.johnson57@gmail.com</a>
+      </div>
+      <div className="flex flex-row items-center" id="phone">
+        <MdLocalPhone className="mr-2" />
+        (801) 913-4614
+      </div>
+    </main>
   </Layout>
 )
 
