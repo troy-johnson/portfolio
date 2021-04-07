@@ -3,14 +3,8 @@ import "./layout.css"
 
 const Layout = ({ children }) => {
   return (
-    <div className="bg-gray-900 w-screen h-screen text-gray-100 font-sans flex items-center">
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
+    <div className="bg-gray-900 w-screen h-screen text-gray-100 font-body flex items-center">
+      <div className="max-w-5xl mt-0 mb-0 mr-auto ml-auto pt-0 pr-4 pl-4 pb-6">
         <main>{children}</main>
       </div>
     </div>
