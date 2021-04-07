@@ -3,7 +3,7 @@ import "./layout.css"
 
 const Layout = ({ children }) => {
   return (
-    <>
+    <div className="bg-gray-900 w-screen h-screen text-gray-100 font-sans flex items-center">
       <div
         style={{
           margin: `0 auto`,
@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
       </div>
-    </>
+    </div>
   )
 }
 
