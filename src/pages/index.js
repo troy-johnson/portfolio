@@ -15,7 +15,7 @@ const IndexPage = () => (
       </div>
       <div className="flex flex-row items-center transition duration-500 ease-in-out hover:text-yellow-500" id="resume">
         <IoMdDocument className="mr-2" />
-        <a href={resume} target="_blank">
+        <a href={resume} download="troy-johnson-cv.pdf" target="_blank">
           Resume
         </a>
       </div>
