@@ -2,7 +2,7 @@ import * as React from "react"
 import { Layout, SEO } from "../components"
 import { FaLinkedin } from "react-icons/fa"
 import { MdEmail, MdLocalPhone } from "react-icons/md"
-import { IoMdDocument } from "react-icons/io"
+import { HiDocumentText } from "react-icons/hi"
 import resume from "../assets/resume.pdf"
 
 const IndexPage = () => (
@@ -14,7 +14,7 @@ const IndexPage = () => (
         <h2 className="text-xl">SOFTWARE ENGINEER</h2>
       </div>
       <div className="flex flex-row items-center transition duration-500 ease-in-out hover:text-yellow-500" id="resume">
-        <IoMdDocument className="mr-2" />
+        <HiDocumentText className="mr-2" />
         <a href={resume} download="troy-johnson-cv.pdf" target="_blank">
           Resume
         </a>
