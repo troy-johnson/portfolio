@@ -37,9 +37,9 @@ const IndexPage = () => (
         <FaLinkedin className="mr-2" />
         <a
           className="text-xl"
-          href="https://github.com/troy-johnson"
+          href="https://www.linkedin.com/in/troy-johnson57"
           target="_blank"
-          alt="GitHub"
+          alt="LinkedIn"
           rel="noreferrer"
         >
           troy-johnson
@@ -52,9 +52,9 @@ const IndexPage = () => (
         <FaGithub className="mr-2" />
         <a
           className="text-xl"
-          href="https://www.linkedin.com/in/troy-johnson57/"
+          href="https://github.com/troy-johnson"
           target="_blank"
-          alt="LinkedIn"
+          alt="GitHub"
           rel="noreferrer"
         >
           troy-johnson57
