@@ -24,7 +24,7 @@ const IndexPage = () => (
           className="text-xl"
           download="troy-johnson-resume.pdf"
           target="_blank"
-          alt="Resume"
+          alt="Résumé"
           rel="noreferrer"
         >
           Résumé/CV
