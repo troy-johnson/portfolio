@@ -42,7 +42,7 @@ const IndexPage = () => (
           alt="LinkedIn"
           rel="noreferrer"
         >
-          troy-johnson
+          troy-johnson57
         </a>
       </div>
       <div
@@ -57,7 +57,7 @@ const IndexPage = () => (
           alt="GitHub"
           rel="noreferrer"
         >
-          troy-johnson57
+          troy-johnson
         </a>
       </div>
       <div
