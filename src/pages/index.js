@@ -27,7 +27,7 @@ const IndexPage = () => (
           alt="Resume"
           rel="noreferrer"
         >
-          Resume
+          Résumé/CV
         </a>
       </div>
       <div
