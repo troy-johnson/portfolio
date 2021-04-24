@@ -1,7 +1,7 @@
 import * as React from "react"
 import { Layout, SEO } from "../components"
 import "@fontsource/raleway"
-import { FaLinkedin } from "react-icons/fa"
+import { FaLinkedin, FaGithub } from "react-icons/fa"
 import { MdEmail } from "react-icons/md"
 import { HiDocumentText } from "react-icons/hi"
 import resume from "../assets/resume.pdf"
@@ -35,6 +35,21 @@ const IndexPage = () => (
         id="linkedin"
       >
         <FaLinkedin className="mr-2" />
+        <a
+          className="text-xl"
+          href="https://github.com/troy-johnson"
+          target="_blank"
+          alt="GitHub"
+          rel="noreferrer"
+        >
+          troy-johnson
+        </a>
+      </div>
+      <div
+        className="flex flex-row items-center transition duration-500 ease-in-out hover:text-yellow-500"
+        id="linkedin"
+      >
+        <FaGithub className="mr-2" />
         <a
           className="text-xl"
           href="https://www.linkedin.com/in/troy-johnson57/"
